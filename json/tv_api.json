@@ -26,7 +26,7 @@
     },
     "input": {
       "path": "/sony/ircc",
-      ",method": "POST",
+      "method": "POST",
       "headers":{
 	    "Content-Type": "text/xml; charset=UTF-8",
 	    "SOAPACTION" : "\"urn:schemas-sony-com:service:IRCC:1#X_SendIRCC\""
