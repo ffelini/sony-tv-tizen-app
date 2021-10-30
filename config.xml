@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets"
+	id="http://yourdomain/TvRemoteTAU" version="1.0.0" viewmodes="fullscreen">
+	<access origin="https://www.tizen.org" subdomains="true"></access>
+	<tizen:app-widget id="Ep7zfE05ck.TvRemote.main"
+		primary="false">
+		<tizen:widget-label>TV Main</tizen:widget-label>
+		<tizen:widget-content src="widget/main/main.html">
+			<tizen:widget-size preview="widget/main/preview.png">2x2</tizen:widget-size>
+		</tizen:widget-content>
+	</tizen:app-widget>
+	<tizen:app-widget id="Ep7zfE05ck.TvRemote.navigation"
+		primary="false">
+		<tizen:widget-label>TV Navigation</tizen:widget-label>
+		<tizen:widget-content src="widget/main/navigation.html">
+			<tizen:widget-size preview="widget/main/preview.png">2x2</tizen:widget-size>
+		</tizen:widget-content>
+	</tizen:app-widget>
+	<tizen:app-widget id="Ep7zfE05ck.TvRemote.player"
+		primary="false">
+		<tizen:widget-label>TV Player</tizen:widget-label>
+		<tizen:widget-content src="widget/main/player-control.html">
+			<tizen:widget-size preview="widget/main/preview.png">2x2</tizen:widget-size>
+		</tizen:widget-content>
+	</tizen:app-widget>
+
+	<tizen:application id="Ep7zfE05ck.TvRemote" package="Ep7zfE05ck"
+		required_version="2.3" />
+
+	<author email="valeriu87@gmail.com">Valerii Turcan</author>
+	<content src="startup.html" />
+
+	<feature name="http://tizen.org/feature/screen.size.normal" />
+	<feature name="http://tizen.org/feature/network.internet" />
+	<feature name="http://tizen.org/feature/input.rotating_bezel" />
+	<icon src="icon.png" />
+
+	<name>SonyTvRemote</name>
+
+	<tizen:privilege name="http://tizen.org/privilege/widget.viewer" />
+	<tizen:privilege name="http://tizen.org/privilege/filesystem.read" />
+	<tizen:privilege name="http://tizen.org/privilege/filesystem.write" />
+	<tizen:privilege name="http://tizen.org/privilege/download" />
+	<tizen:privilege name="http://tizen.org/privilege/internet" />
+
+	<tizen:privilege name="http://tizen.org/privilege/application.info" />
+	<tizen:privilege name="http://tizen.org/privilege/application.launch" />
+
+	<tizen:profile name="wearable" />
+	<tizen:setting background-support="enable" encryption="disable"
+		hwkey-event="enable" />
+</widget>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="width=device-width, initial-scale=1, user-scalable=no"
+	name="viewport" />
+<title>Sony TV Remote</title>
+<link href="lib/tau/wearable/theme/default/tau.min.css"
+	rel="stylesheet" />
+<link href="css/style.css" rel="stylesheet" />
+<link href="css/sectionchanger.css" rel="stylesheet" />
+</head>
+
+<body>
+	<div class="ui-page" data-enable-page-scroll="false" id=home-page>
+		<div class="ui-page-indicator" data-layout="circular"
+			id="pageIndicator"></div>
+		<div class="ui-content" id="hsectionchanger">
+			<!-- section changer has only one child. -->
+			<div>
+				<section style="text-align: center">
+					<div class="row">
+						<button id="button_power" class="horizontalcell round-button">Power</button>
+					</div>
+					<div class="row">
+						<button id="button_volume_down"
+							class="horizontalcell round-button">Vol-</button>
+						<button id="button_volume_up" class="horizontalcell round-button">Vol+</button>
+					</div>
+					<div class="row">
+						<button id="button_home" class="horizontalcell round-button">Home</button>
+					</div>
+				</section>
+				<section style="text-align: center">
+					<div class="row">
+						<button id="button_options" class="horizontalcell round-button-small">Options</button>
+						<button id="button_up" class="horizontalcell round-button">Up</button>
+						<button id="button_input" class="horizontalcell round-button-small">Input</button>
+					</div>
+					<div class="row">
+						<button id="button_left" class="horizontalcell round-button">Left</button>
+						<button id="button_ok" class="horizontalcell round-button">Ok</button>
+						<button id="button_right" class="horizontalcell round-button">Right</button>
+					</div>
+					<div class="row">
+						<button id="button_back" class="horizontalcell round-button-small">Back</button>
+						<button id="button_down" class="horizontalcell round-button">Down</button>
+						<button id="button_mute" class="horizontalcell round-button-small">Mute</button>
+					</div>
+				</section>
+				<section style="text-align: center">
+					<div class="row">
+					</div>
+					<div class="row">
+						<button id="button_prev" class="horizontalcell round-button">Previous</button>
+						<button id="button_toggle_playback"
+							class="horizontalcell round-button">Play</button>
+						<button id="button_next" class="horizontalcell round-button">Next</button>
+					</div>
+					<div class="row">
+						<button id="button_stop" class="horizontalcell round-button">Stop</button>
+					</div>
+				</section>
+				<section style="text-align: center">
+					<a href="swipe-control.html" target="_self"
+						class="href_on_center">Tap to open Gesture Control</a>
+				</section>
+				<section style="text-align: center">
+					<a href="settings.html" target="_self" class="href_on_center">Settings</a>
+				</section>
+			</div>
+		</div>
+
+		<script src="js/utils/utils.js" type="text/javascript"></script>
+		<script src="js/navigation/html-navigation.js" type="text/javascript"></script>
+		
+		<script src="lib/tau/wearable/js/tau.min.js" type="text/javascript"></script>
+		<script src="js/circle-helper.js" type="text/javascript"></script>
+		<script src="js/hsection.js" type="text/javascript"></script>
+		<script src="js/settings/settings.js" type="text/javascript"></script>
+		<script src="js/navigation/hardware-buttons-navigation.js" type="text/javascript"></script>
+		<script src="js/remote/tv-remote.js" type="text/javascript"></script>
+		<script src="js/remote/tv-remote-listeners.js" type="text/javascript"></script>
+		<script src="js/init.js" type="text/javascript"></script>
+	</div>
+</body>
+
+</html>
