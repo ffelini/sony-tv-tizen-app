@@ -1,0 +1,103 @@
+body {
+	background-color: #000000;
+}
+
+#controls_layout {
+	margin-top: 15px
+}
+
+.row {
+	text-align: center;
+	padding: 0;
+	margin: 1px;
+}
+
+.horizontalcell {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+.round-button, .round-button-small  {
+	width: 98px;
+	height: 98px;
+	line-height: 100px;
+	color: #ffffff;
+	text-align: center;
+	border: 6px solid;
+	border-color: #de7a00;
+	text-decoration: none;
+	background-color: #262626;
+	font-size: x-large;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+.round-button-small {
+	width: 60px;
+	height: 60px;
+	font-size: x-small;
+}
+
+.round-button-small:active {
+	background-color: #424242;
+}
+
+.round-button:active {
+	background-color: #424242;
+}
+
+#button_power {
+	border-color: #2d941e;
+}
+
+#button_home {
+	border-color: #6ab000;
+}
+
+#button_options {
+	vertical-align: bottom;
+	margin-bottom: 10px;
+	border-color: #a80030;
+}
+
+#button_input {
+	vertical-align: bottom;
+	margin-bottom: 10px;
+	border-color: #22b804;
+}
+
+#button_mute {
+	vertical-align: top;
+	margin-top: 10px;
+	border-color: #ab9fa2;
+}
+
+#button_back {
+	vertical-align: top;
+	margin-top: 10px;
+	border-color: #a80030;
+}
+
+.href_on_center {
+	display: block;
+	width: 100%;
+	padding-top: 38%;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: center;
+	color: #fcb612;
+	font-size: large;
+	font-weight: bold;
+	z-index: 10;
+}
+
+.div_text_on_center {
+	width: 100%;
+	margin-top: 45%;
+	text-align: center;
+	color: #fcb612;
+	font-size: large;
+	font-weight: bold;
+}
