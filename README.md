@@ -1,4 +1,4 @@
-Sony TV Remote application for Tizen based Galaxy Watch-es. The implementation is based on Ip Control specification(https://pro-bravia.sony.net/develop/integrate/ip-control/) [IRCC-IP](https://pro-bravia.sony.net/develop/integrate/ircc-ip/overview/index.html) specification.
+Sony TV Remote application for Tizen based Galaxy Watch-es. The implementation is based on [Ip Control](https://pro-bravia.sony.net/develop/integrate/ip-control/) and [IRCC-IP](https://pro-bravia.sony.net/develop/integrate/ircc-ip/overview/index.html) specifications.
 
 # PROLOGUE
 
